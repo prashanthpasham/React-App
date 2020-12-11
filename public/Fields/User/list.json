@@ -1,0 +1,37 @@
+{
+    "title":"User",
+    "fields":[
+       {
+           "name":"bt",
+           "type":"BT",
+           "error":"",
+           "required":false
+       },
+       {
+           "name": "userName",
+           "title": "User Code or Name",
+           "required": false,
+           "type": "input",
+           "dataType": "text",
+           "error":""
+       },
+       {
+           "name": "status",
+           "title": "Status",
+           "required": false,
+           "type": "dropdown",
+           "dataType": "select",
+           "error":"",
+           "values": [
+               {
+                   "label": "Active",
+                   "value": "active"
+               },
+               {
+                   "label": "InActive",
+                   "value": "inactive"
+               }
+           ]
+       }
+    ]   
+   }

@@ -1,0 +1,2065 @@
+{
+	"Fields": [{
+		"Score": 0,
+		"name": "FF201484",
+		"title": "Normal Form Fields With out mandatory",
+		"type": {
+			"view": "label",
+			"readonly": false,
+			"data": "",
+			"labeltitle": "Normal Form Fields With out mandatory",
+			"operationvalue": "",
+			"hideonly": false,
+			"order": 1
+		},
+		"required": false
+	}, {
+		"scorerange": [],
+		"Score": 0,
+		"name": "FF201485",
+		"title": "Enter NM Name",
+		"type": {
+			"view": "input",
+			"minlength": 0,
+			"readonlyvalue": "",
+			"data": "",
+			"readonly": false,
+			"maxlength": 15,
+			"inputtype": "text",
+			"operationvalue": "",
+			"defaultvalue": "",
+			"hideonly": false,
+			"order": 2
+		},
+		"required": false,
+		"validation": false
+	}, {
+		"Score": 2,
+		"name": "FF201486",
+		"title": "Enter NM Address",
+		"type": {
+			"view": "textarea",
+			"minlength": 0,
+			"readonlyvalue": "",
+			"data": "",
+			"readonly": false,
+			"maxlength": 150,
+			"inputtype": "text",
+			"operationvalue": "",
+			"defaultvalue": "",
+			"hideonly": false,
+			"order": 3
+		},
+		"required": false
+	}, {
+		"Score": 0,
+		"name": "FF201487",
+		"title": "NM Languages",
+		"type": {
+			"view": "checkbox",
+			"data": "",
+			"readonly": false,
+			"operationvalue": "",
+			"choices": [{
+				"SubScore": 0,
+				"name": "C",
+				"checked": false,
+				"id": 0
+			}, {
+				"SubScore": 0,
+				"name": "Java",
+				"checked": false,
+				"id": 1
+			}, {
+				"SubScore": 0,
+				"name": "Perl",
+				"checked": false,
+				"id": 2
+			}],
+			"hideonly": false,
+			"order": 4
+		},
+		"required": false
+	}, {
+		"Score": 5,
+		"name": "FF201488",
+		"title": "Select NM Age",
+		"type": {
+			"view": "radio",
+			"readonly": false,
+			"data": "",
+			"operationvalue": "",
+			"options": [{
+				"SubScore": 2,
+				"name": "below 25",
+				"checked": false,
+				"links": [],
+				"id": 0
+			}, {
+				"SubScore": 5,
+				"name": "above 25",
+				"checked": false,
+				"links": [],
+				"id": 1
+			}],
+			"defaultvalue": "",
+			"hideonly": false,
+			"order": 5
+		},
+		"required": false
+	}, {
+		"Score": 2,
+		"BT": "NA",
+		"name": "FF201489",
+		"title": "Select NM self score",
+		"type": {
+			"view": "select",
+			"Category": "Description",
+			"readonly": false,
+			"data": "",
+			"scan": "No",
+			"operationvalue": "",
+			"options": [{
+				"Designation": "no",
+				"Warehouse": "no",
+				"BT": "no",
+				"LeaveType": "no",
+				"SubScore": 0,
+				"name": "below 5",
+				"StockGroup": "no",
+				"Activity": "no",
+				"id": "below 5"
+			}, {
+				"Designation": "no",
+				"Warehouse": "no",
+				"BT": "no",
+				"LeaveType": "no",
+				"SubScore": 1,
+				"name": "5 to 7",
+				"StockGroup": "no",
+				"Activity": "no",
+				"id": "5 to 7"
+			}, {
+				"Designation": "no",
+				"Warehouse": "no",
+				"BT": "no",
+				"LeaveType": "no",
+				"SubScore": 2,
+				"name": "7 to 10",
+				"StockGroup": "no",
+				"Activity": "no",
+				"id": "7 to 10"
+			}],
+			"defaultvalue": "",
+			"hideonly": false,
+			"order": 6
+		},
+		"required": false
+	}, {
+		"Score": 0,
+		"name": "FF201490",
+		"title": "Selected NM Image",
+		"type": {
+			"view": "image",
+			"data": "",
+			"defaultvalue": "",
+			"order": 7
+		},
+		"required": false
+	}, {
+		"Score": 0,
+		"name": "FF201491",
+		"title": "Capture NM image",
+		"type": {
+			"view": "photo",
+			"readonly": false,
+			"data": "",
+			"operationvalue": "",
+			"defaultvalue": "",
+			"hideonly": false,
+			"order": 8
+		},
+		"required": false
+	}, {
+		"Score": 0,
+		"name": "FF201492",
+		"title": "NM Signature",
+		"type": {
+			"view": "signature",
+			"readonly": false,
+			"data": "",
+			"operationvalue": "",
+			"defaultvalue": "",
+			"hideonly": false,
+			"order": 9
+		},
+		"required": false
+	}, {
+		"Score": 0,
+		"name": "LocateLatitude",
+		"title": "Locate_Latitude",
+		"type": {
+			"view": "input",
+			"minlength": 0,
+			"readonly": false,
+			"maxlength": 100,
+			"inputtype": "text",
+			"operationvalue": "none",
+			"defaultvalue": "",
+			"hideonly": false,
+			"order": 10
+		},
+		"required": false
+	}, {
+		"Score": 0,
+		"name": "LocateLongitude",
+		"title": "Locate_Longitude",
+		"type": {
+			"view": "input",
+			"minlength": 0,
+			"readonly": false,
+			"maxlength": 100,
+			"inputtype": "text",
+			"operationvalue": "none",
+			"defaultvalue": "",
+			"hideonly": false,
+			"order": 11
+		},
+		"required": false
+	}, {
+		"Score": 0,
+		"name": "LocateAddress",
+		"title": "Locate_Address",
+		"type": {
+			"view": "textarea",
+			"minlength": 0,
+			"readonly": false,
+			"maxlength": 1000,
+			"inputtype": "text",
+			"operationvalue": "none",
+			"defaultvalue": "",
+			"hideonly": false,
+			"order": 12
+		},
+		"required": false
+	}, {
+		"Score": 0,
+		"name": "FF20149313",
+		"title": "NM Location ",
+		"type": {
+			"view": "button",
+			"readonly": false,
+			"operationvalue": "",
+			"defaultvalue": "",
+			"hideonly": false,
+			"order": 13
+		},
+		"required": false
+	}, {
+		"Score": 0,
+		"name": "ScanBarcodeFF201494",
+		"title": "Select NM barcode ",
+		"type": {
+			"view": "Scan",
+			"options": [{
+				"Score": 0,
+				"name": "ScanBarcodeFF201494",
+				"title": "Select NM barcode ",
+				"type": {
+					"view": "textarea",
+					"minlength": 0,
+					"readonlyvalue": "",
+					"readonly": false,
+					"maxlength": 1000,
+					"inputtype": "text",
+					"operationvalue": "",
+					"defaultvalue": "",
+					"hideonly": false,
+					"order": 0
+				},
+				"required": false
+			}, {
+				"Score": "0",
+				"name": "FF2014940",
+				"addname": "ScanBarcodeFF201494",
+				"title": "Select NM barcode ",
+				"type": {
+					"view": "sbutton",
+					"readonlyvalue": "",
+					"readonly": false,
+					"operationvalue": "",
+					"defaultvalue": "",
+					"hideonly": false,
+					"order": 0
+				},
+				"required": false
+			}],
+			"order": 14
+		}
+	}, {
+		"scorerange": [],
+		"ScoreDropdown": "NA",
+		"name": "GP2015031",
+		"ScoreType": null,
+		"title": "NM Group",
+		"type": {
+			"view": "group",
+			"readonly": false,
+			"operationvalue": "",
+			"options": [{
+				"Score": 0,
+				"name": "Add9",
+				"title": "Add",
+				"type": {
+					"view": "button",
+					"readonly": false,
+					"operationvalue": "",
+					"defaultvalue": "",
+					"hideonly": false,
+					"order": 9
+				},
+				"required": false
+			}, {
+				"BT": "no",
+				"Score": 0,
+				"name": "GP201495",
+				"title": "Select SKu",
+				"type": {
+					"Category": "Description",
+					"data": "",
+					"scan": "No",
+					"multiple": false,
+					"StockHierarchy": "no",
+					"defaultvalue": "",
+					"mandatory": "No",
+					"view": "select",
+					"readonly": false,
+					"operationvalue": "",
+					"options": [{
+						"Designation": "no",
+						"Warehouse": "no",
+						"BT": "no",
+						"LeaveType": "no",
+						"SubScore": 0,
+						"name": "Star",
+						"StockGroup": "no",
+						"Activity": "no",
+						"id": 0
+					}, {
+						"Designation": "no",
+						"Warehouse": "no",
+						"BT": "no",
+						"LeaveType": "no",
+						"SubScore": 0,
+						"name": "Goldberg",
+						"StockGroup": "no",
+						"Activity": "no",
+						"id": 1
+					}, {
+						"Designation": "no",
+						"Warehouse": "no",
+						"BT": "no",
+						"LeaveType": "no",
+						"SubScore": 0,
+						"name": "Gulder",
+						"StockGroup": "no",
+						"Activity": "no",
+						"id": 2
+					}, {
+						"Designation": "no",
+						"Warehouse": "no",
+						"BT": "no",
+						"LeaveType": "no",
+						"SubScore": 0,
+						"name": "Maltina",
+						"StockGroup": "no",
+						"Activity": "no",
+						"id": 3
+					}],
+					"hideonly": false,
+					"order": 0
+				},
+				"required": false,
+				"validation": false
+			}, {
+				"scorerange": [],
+				"Score": 0,
+				"name": "GP201496",
+				"title": "Enter Qty",
+				"type": {
+					"view": "input",
+					"minlength": 0,
+					"readonlyvalue": "",
+					"data": "",
+					"readonly": false,
+					"maxlength": 200,
+					"inputtype": "text",
+					"operationvalue": "",
+					"defaultvalue": "",
+					"hideonly": false,
+					"order": 0
+				},
+				"required": false,
+				"validation": false
+			}, {
+				"Score": 0,
+				"name": "TakeSnapGP201497",
+				"title": "Select photo",
+				"type": {
+					"view": "photo",
+					"readonly": false,
+					"data": "",
+					"operationvalue": "",
+					"defaultvalue": "",
+					"hideonly": false,
+					"order": 0
+				},
+				"required": false
+			}, {
+				"Score": 0,
+				"name": "ScanBarcodeGP201498",
+				"title": "NM barcode",
+				"type": {
+					"view": "textarea",
+					"minlength": 0,
+					"readonlyvalue": "",
+					"readonly": false,
+					"maxlength": 1000,
+					"inputtype": "text",
+					"operationvalue": "",
+					"defaultvalue": "",
+					"hideonly": false,
+					"order": 0
+				},
+				"required": false
+			}, {
+				"Score": "0",
+				"name": "GP2014980",
+				"addname": "ScanBarcodeGP201498",
+				"title": "NM barcode",
+				"type": {
+					"view": "sbutton",
+					"readonlyvalue": "",
+					"readonly": false,
+					"operationvalue": "",
+					"defaultvalue": "",
+					"hideonly": false,
+					"order": 0
+				},
+				"required": false
+			}, {
+				"BT": "Yes",
+				"Score": 0,
+				"name": "GP201499",
+				"title": "Country",
+				"type": {
+					"Category": "Description",
+					"data": "",
+					"scan": "No",
+					"multiple": false,
+					"StockHierarchy": "no",
+					"defaultvalue": "",
+					"mandatory": "No",
+					"view": "select",
+					"readonly": false,
+					"operationvalue": "",
+					"options": [{
+						"Designation": "no",
+						"Warehouse": "no",
+						"BT": "Yes",
+						"LeaveType": "no",
+						"SubScore": 0,
+						"name": "Country",
+						"StockGroup": "no",
+						"Activity": "no",
+						"id": 0
+					}],
+					"hideonly": false,
+					"order": 0
+				},
+				"required": false,
+				"validation": false
+			}, {
+				"BT": "Yes",
+				"Score": 0,
+				"name": "GP201500",
+				"title": "Region",
+				"type": {
+					"Category": "Description",
+					"data": "",
+					"scan": "No",
+					"multiple": false,
+					"StockHierarchy": "no",
+					"defaultvalue": "",
+					"mandatory": "No",
+					"view": "select",
+					"readonly": false,
+					"operationvalue": "",
+					"options": [{
+						"Designation": "no",
+						"Warehouse": "no",
+						"BT": "Yes",
+						"LeaveType": "no",
+						"SubScore": 0,
+						"name": "Region",
+						"StockGroup": "no",
+						"Activity": "no",
+						"id": 0
+					}],
+					"hideonly": false,
+					"order": 0
+				},
+				"required": false,
+				"validation": false
+			}, {
+				"BT": "Yes",
+				"Score": 0,
+				"name": "GP201501",
+				"title": "State",
+				"type": {
+					"Category": "Description",
+					"data": "",
+					"scan": "No",
+					"multiple": false,
+					"StockHierarchy": "no",
+					"defaultvalue": "",
+					"mandatory": "No",
+					"view": "select",
+					"readonly": false,
+					"operationvalue": "",
+					"options": [{
+						"Designation": "no",
+						"Warehouse": "no",
+						"BT": "Yes",
+						"LeaveType": "no",
+						"SubScore": 0,
+						"name": "State",
+						"StockGroup": "no",
+						"Activity": "no",
+						"id": 0
+					}],
+					"hideonly": false,
+					"order": 0
+				},
+				"required": false,
+				"validation": false
+			}, {
+				"BT": "Yes",
+				"Score": 0,
+				"name": "GP201502",
+				"title": "District",
+				"type": {
+					"Category": "Description",
+					"data": "",
+					"scan": "No",
+					"multiple": false,
+					"StockHierarchy": "no",
+					"defaultvalue": "",
+					"mandatory": "No",
+					"view": "select",
+					"readonly": false,
+					"operationvalue": "",
+					"options": [{
+						"Designation": "no",
+						"Warehouse": "no",
+						"BT": "Yes",
+						"LeaveType": "no",
+						"SubScore": 0,
+						"name": "District",
+						"StockGroup": "no",
+						"Activity": "no",
+						"id": 0
+					}],
+					"hideonly": false,
+					"order": 0
+				},
+				"required": false,
+				"validation": false
+			}],
+			"hideonly": false,
+			"order": 15
+		},
+		"required": false
+	}, {
+		"scorerange": [],
+		"ScoreDropdown": "NA",
+		"name": "GP2015082",
+		"ScoreType": null,
+		"title": "NM Stock group with all fields",
+		"type": {
+			"view": "group",
+			"readonly": false,
+			"operationvalue": "",
+			"options": [{
+				"Score": 0,
+				"name": "Add5",
+				"title": "Add",
+				"type": {
+					"view": "button",
+					"readonly": false,
+					"operationvalue": "",
+					"defaultvalue": "",
+					"hideonly": false,
+					"order": 5
+				},
+				"required": false
+			}, {
+				"BT": "no",
+				"Score": 0,
+				"name": "GP201504",
+				"title": "NM select stock",
+				"type": {
+					"Category": "Description",
+					"data": "",
+					"scan": "No",
+					"multiple": false,
+					"StockHierarchy": "no",
+					"defaultvalue": "",
+					"mandatory": "No",
+					"view": "select",
+					"readonly": false,
+					"operationvalue": "",
+					"options": [{
+						"Designation": "no",
+						"Warehouse": "no",
+						"BT": "no",
+						"LeaveType": "no",
+						"SubScore": 0,
+						"name": "NA",
+						"StockGroup": "USER",
+						"Activity": "no",
+						"id": 0
+					}],
+					"hideonly": false,
+					"order": 0
+				},
+				"required": false,
+				"validation": true
+			}, {
+				"scorerange": [],
+				"Score": 0,
+				"name": "GP201505",
+				"title": "NM enter qty",
+				"type": {
+					"view": "input",
+					"minlength": 0,
+					"readonlyvalue": "",
+					"data": "",
+					"readonly": false,
+					"maxlength": 200,
+					"inputtype": "text",
+					"operationvalue": "",
+					"defaultvalue": "",
+					"hideonly": false,
+					"order": 0
+				},
+				"required": false,
+				"validation": true
+			}, {
+				"Score": 0,
+				"name": "ScanBarcodeGP201506",
+				"title": "barcode NM",
+				"type": {
+					"view": "textarea",
+					"minlength": 0,
+					"readonlyvalue": "",
+					"readonly": false,
+					"maxlength": 1000,
+					"inputtype": "text",
+					"operationvalue": "",
+					"defaultvalue": "",
+					"hideonly": false,
+					"order": 0
+				},
+				"required": false
+			}, {
+				"Score": "0",
+				"name": "GP2015060",
+				"addname": "ScanBarcodeGP201506",
+				"title": "barcode NM",
+				"type": {
+					"view": "sbutton",
+					"readonlyvalue": "",
+					"readonly": false,
+					"operationvalue": "",
+					"defaultvalue": "",
+					"hideonly": false,
+					"order": 0
+				},
+				"required": false
+			}, {
+				"Score": 0,
+				"name": "TakeSnapGP201507",
+				"title": "Catpture photo",
+				"type": {
+					"view": "photo",
+					"readonly": false,
+					"data": "",
+					"operationvalue": "",
+					"defaultvalue": "",
+					"hideonly": false,
+					"order": 0
+				},
+				"required": false
+			}],
+			"hideonly": false,
+			"order": 16
+		},
+		"required": false
+	}, {
+		"name": "GC201513",
+		"title": "NM Calculated Fields",
+		"type": {
+			"orientation": "horizontal",
+			"view": "groupcombo",
+			"readonly": false,
+			"groupfields": [{
+				"options": [{
+					"Score": 0,
+					"name": "GC201512",
+					"title": "NM COMBO",
+					"type": {
+						"view": "label",
+						"readonly": false,
+						"data": "",
+						"labeltitle": "NM COMBO",
+						"operationvalue": "",
+						"hideonly": false
+					},
+					"required": false
+				}, {
+					"scorerange": [],
+					"Score": 0,
+					"name": "GC201509",
+					"title": "NM QTY",
+					"type": {
+						"view": "input",
+						"minlength": 0,
+						"readonly": false,
+						"maxlength": 100,
+						"inputtype": "number",
+						"operationvalue": "",
+						"defaultvalue": 0,
+						"formula": [{
+							"result": "GC201511",
+							"fields": "GC201509##GC201510",
+							"operation": "Multiply",
+							"order": 1
+						}, {
+							"result": "GC254281",
+							"fields": "GC201511",
+							"operation": "Addition",
+							"order": 2
+						}],
+						"action": "yes",
+						"hideonly": false,
+						"order": 0
+					},
+					"required": false
+				}, {
+					"scorerange": [],
+					"Score": 0,
+					"name": "GC201510",
+					"title": "NM PRICE",
+					"type": {
+						"view": "input",
+						"minlength": 0,
+						"readonly": false,
+						"maxlength": 100,
+						"inputtype": "number",
+						"operationvalue": "",
+						"defaultvalue": 0,
+						"action": "yes",
+						"formula": [{
+							"result": "GC201511",
+							"fields": "GC201509##GC201510",
+							"operation": "Multiply",
+							"order": 1
+						}, {
+							"result": "GC254281",
+							"fields": "GC201511",
+							"operation": "Addition",
+							"order": 2
+						}],
+						"hideonly": false,
+						"order": 1
+					},
+					"required": false
+				}, {
+					"scorerange": [],
+					"Score": 0,
+					"name": "GC201511",
+					"title": "NM TOTAL",
+					"type": {
+						"view": "input",
+						"minlength": 0,
+						"readonly": true,
+						"maxlength": 100,
+						"inputtype": "number",
+						"operationvalue": "",
+						"defaultvalue": 0,
+						"action": "no",
+						"formula": [],
+						"hideonly": false,
+						"order": 2
+					},
+					"required": false
+				}]
+			}, {
+				"options": [{
+					"Score": 0,
+					"name": "GC254282",
+					"title": "Total",
+					"type": {
+						"view": "label",
+						"readonly": true,
+						"operationvalue": "block",
+						"hideonly": false,
+						"order": 2
+					},
+					"required": false
+				}, {
+					"scorerange": [],
+					"Score": 0,
+					"name": "GC254283",
+					"title": "Total",
+					"type": {
+						"view": "input",
+						"minlength": 0,
+						"readonly": true,
+						"maxlength": 1000,
+						"inputtype": "number",
+						"operationvalue": "none",
+						"defaultvalue": 0,
+						"formula": [],
+						"action": "no",
+						"hideonly": false,
+						"order": 3
+					},
+					"required": false
+				}, {
+					"scorerange": [],
+					"Score": 0,
+					"name": "GC254284",
+					"title": "Total",
+					"type": {
+						"view": "input",
+						"minlength": 0,
+						"readonly": true,
+						"maxlength": 1000,
+						"inputtype": "number",
+						"operationvalue": "none",
+						"defaultvalue": 0,
+						"formula": [],
+						"action": "no",
+						"hideonly": false,
+						"order": 4
+					},
+					"required": false
+				}, {
+					"scorerange": [],
+					"Score": 0,
+					"name": "GC254281",
+					"title": "Total",
+					"type": {
+						"view": "input",
+						"minlength": 0,
+						"readonly": true,
+						"maxlength": 1000,
+						"inputtype": "number",
+						"operationvalue": "block",
+						"defaultvalue": 0,
+						"formula": [],
+						"action": "no",
+						"hideonly": false,
+						"order": 5
+					},
+					"required": false
+				}]
+			}],
+			"operationvalue": "",
+			"hideonly": false,
+			"order": 17
+		},
+		"required": false
+	}, {
+		"Score": 0,
+		"ftype": "Drop Down",
+		"data": "",
+		"name": "SE201514",
+		"pKey": "0.",
+		"seName": "",
+		"title": "NM Course",
+		"type": {
+			"view": "SubSelect",
+			"readonly": false,
+			"options": [{
+				"ftype": "FieldValues",
+				"data": "",
+				"SubScore": 0,
+				"name": "UG",
+				"pKey": "1.",
+				"id": "UG",
+				"Children": [{
+					"Score": 0,
+					"ftype": "Drop Down",
+					"data": "",
+					"name": "SE201515",
+					"pKey": "1.1.",
+					"seName": "UG",
+					"title": "NM UG Course",
+					"type": {
+						"view": "SubSelect",
+						"readonly": false,
+						"options": [{
+							"ftype": "FieldValues",
+							"data": "",
+							"SubScore": 0,
+							"name": "BSC",
+							"pKey": "1.1.1.",
+							"id": "BSC",
+							"Children": [{
+								"scorerange": [],
+								"Score": 0,
+								"ftype": "Text Box",
+								"data": "",
+								"name": "SE201516",
+								"pKey": "1.1.1.1.",
+								"seName": "BSC",
+								"title": "NM Enter BSC Score",
+								"type": {
+									"view": "SubInput",
+									"minlength": 0,
+									"readonlyvalue": "",
+									"readonly": false,
+									"maxlength": 200,
+									"inputtype": "text",
+									"operationvalue": "",
+									"defaultvalue": "",
+									"hideonly": false,
+									"order": "18.3"
+								},
+								"Key": "1.1.1.1.1.",
+								"required": true
+							}],
+							"seName": "UG",
+							"title": "NM UG Course",
+							"Key": "1.1.1.1."
+						}, {
+							"ftype": "FieldValues",
+							"data": "",
+							"SubScore": 0,
+							"name": "BA",
+							"pKey": "1.1.1.",
+							"id": "BA",
+							"Children": [{
+								"Score": 0,
+								"ftype": "Radio Button",
+								"data": "",
+								"name": "SE201517",
+								"pKey": "1.1.1.2.",
+								"seName": "BA",
+								"title": "NM Select BA Score",
+								"type": {
+									"view": "SubRadio",
+									"readonly": false,
+									"options": [{
+										"ftype": "FieldValues",
+										"data": "",
+										"SubScore": 0,
+										"name": "below5",
+										"checked": false,
+										"pKey": "1.1.1.2.1.",
+										"id": "below5",
+										"Children": [],
+										"seName": "BA",
+										"title": "NM Select BA Score",
+										"Key": "1.1.1.2.1.1."
+									}, {
+										"ftype": "FieldValues",
+										"data": "",
+										"SubScore": 0,
+										"name": "above 5",
+										"checked": false,
+										"pKey": "1.1.1.2.1.",
+										"id": "above 5",
+										"Children": [],
+										"seName": "BA",
+										"title": "NM Select BA Score",
+										"Key": "1.1.1.2.1.2."
+									}],
+									"operationvalue": "",
+									"defaultvalue": "",
+									"hideonly": false,
+									"order": "18.3"
+								},
+								"Key": "1.1.1.2.1.",
+								"required": true
+							}],
+							"seName": "UG",
+							"title": "NM UG Course",
+							"Key": "1.1.1.2."
+						}, {
+							"ftype": "FieldValues",
+							"data": "",
+							"SubScore": 0,
+							"name": "Bcom",
+							"pKey": "1.1.1.",
+							"id": "Bcom",
+							"Children": [{
+								"Score": 0,
+								"ftype": "Drop Down",
+								"data": "",
+								"name": "SE201518",
+								"pKey": "1.1.1.3.",
+								"seName": "Bcom",
+								"title": "NM BCom Select Score ",
+								"type": {
+									"view": "SubSelect",
+									"readonly": false,
+									"options": [{
+										"ftype": "FieldValues",
+										"data": "",
+										"SubScore": 0,
+										"name": "below5",
+										"pKey": "1.1.1.3.1.",
+										"id": "below5",
+										"Children": [],
+										"seName": "Bcom",
+										"title": "NM BCom Select Score ",
+										"Key": "1.1.1.3.1.1."
+									}, {
+										"ftype": "FieldValues",
+										"data": "",
+										"SubScore": 0,
+										"name": "above5",
+										"pKey": "1.1.1.3.1.",
+										"id": "above5",
+										"Children": [],
+										"seName": "Bcom",
+										"title": "NM BCom Select Score ",
+										"Key": "1.1.1.3.1.2."
+									}],
+									"operationvalue": "",
+									"defaultvalue": "",
+									"hideonly": false,
+									"order": "18.3"
+								},
+								"Key": "1.1.1.3.1.",
+								"required": true
+							}],
+							"seName": "UG",
+							"title": "NM UG Course",
+							"Key": "1.1.1.3."
+						}],
+						"operationvalue": "",
+						"defaultvalue": "",
+						"hideonly": false,
+						"order": "18.1"
+					},
+					"Key": "1.1.1.",
+					"required": true
+				}],
+				"seName": "",
+				"title": "NM Course",
+				"Key": "1.1."
+			}, {
+				"ftype": "FieldValues",
+				"data": "",
+				"SubScore": 0,
+				"name": "PG",
+				"pKey": "1.",
+				"id": "PG",
+				"Children": [{
+					"Score": 0,
+					"ftype": "Radio Button",
+					"data": "",
+					"name": "SE201519",
+					"pKey": "1.2.",
+					"seName": "PG",
+					"title": "NM select PG course",
+					"type": {
+						"view": "SubRadio",
+						"readonly": false,
+						"options": [{
+							"ftype": "FieldValues",
+							"data": "",
+							"SubScore": 0,
+							"name": "MCA",
+							"checked": false,
+							"pKey": "1.2.1.",
+							"id": "MCA",
+							"Children": [{
+								"Score": 0,
+								"ftype": "Radio Button",
+								"data": "",
+								"name": "SE201520",
+								"pKey": "1.2.1.1.",
+								"seName": "MCA",
+								"title": "NM Select MCA score",
+								"type": {
+									"view": "SubRadio",
+									"readonly": false,
+									"options": [{
+										"ftype": "FieldValues",
+										"data": "",
+										"SubScore": 0,
+										"name": "above5",
+										"checked": false,
+										"pKey": "1.2.1.1.1.",
+										"id": "above5",
+										"Children": [],
+										"seName": "MCA",
+										"title": "NM Select MCA score",
+										"Key": "1.2.1.1.1.1."
+									}, {
+										"ftype": "FieldValues",
+										"data": "",
+										"SubScore": 0,
+										"name": "below5",
+										"checked": false,
+										"pKey": "1.2.1.1.1.",
+										"id": "below5",
+										"Children": [],
+										"seName": "MCA",
+										"title": "NM Select MCA score",
+										"Key": "1.2.1.1.1.2."
+									}],
+									"operationvalue": "",
+									"defaultvalue": "",
+									"hideonly": false,
+									"order": "18.3"
+								},
+								"Key": "1.2.1.1.1.",
+								"required": true
+							}],
+							"seName": "PG",
+							"title": "NM select PG course",
+							"Key": "1.2.1.1."
+						}, {
+							"ftype": "FieldValues",
+							"data": "",
+							"SubScore": 0,
+							"name": "MA",
+							"checked": false,
+							"pKey": "1.2.1.",
+							"id": "MA",
+							"Children": [{
+								"Score": 0,
+								"ftype": "Drop Down",
+								"data": "",
+								"name": "SE201521",
+								"pKey": "1.2.1.2.",
+								"seName": "MA",
+								"title": "NM MA select score",
+								"type": {
+									"view": "SubSelect",
+									"readonly": false,
+									"options": [{
+										"ftype": "FieldValues",
+										"data": "",
+										"SubScore": 0,
+										"name": "5",
+										"pKey": "1.2.1.2.1.",
+										"id": "5",
+										"Children": [],
+										"seName": "MA",
+										"title": "NM MA select score",
+										"Key": "1.2.1.2.1.1."
+									}, {
+										"ftype": "FieldValues",
+										"data": "",
+										"SubScore": 0,
+										"name": "7",
+										"pKey": "1.2.1.2.1.",
+										"id": "7",
+										"Children": [],
+										"seName": "MA",
+										"title": "NM MA select score",
+										"Key": "1.2.1.2.1.2."
+									}, {
+										"ftype": "FieldValues",
+										"data": "",
+										"SubScore": 0,
+										"name": "10",
+										"pKey": "1.2.1.2.1.",
+										"id": "10",
+										"Children": [],
+										"seName": "MA",
+										"title": "NM MA select score",
+										"Key": "1.2.1.2.1.3."
+									}],
+									"operationvalue": "",
+									"defaultvalue": "",
+									"hideonly": false,
+									"order": "18.3"
+								},
+								"Key": "1.2.1.2.1.",
+								"required": true
+							}],
+							"seName": "PG",
+							"title": "NM select PG course",
+							"Key": "1.2.1.2."
+						}, {
+							"ftype": "FieldValues",
+							"data": "",
+							"SubScore": 0,
+							"name": "MSc",
+							"checked": false,
+							"pKey": "1.2.1.",
+							"id": "MSc",
+							"Children": [{
+								"scorerange": [],
+								"Score": 0,
+								"ftype": "Text Box",
+								"data": "",
+								"name": "SE201522",
+								"pKey": "1.2.1.3.",
+								"seName": "MSc",
+								"title": "NM Enter score",
+								"type": {
+									"view": "SubInput",
+									"minlength": 0,
+									"readonlyvalue": "",
+									"readonly": false,
+									"maxlength": 200,
+									"inputtype": "text",
+									"operationvalue": "",
+									"defaultvalue": "",
+									"hideonly": false,
+									"order": "18.3"
+								},
+								"Key": "1.2.1.3.1.",
+								"required": true
+							}],
+							"seName": "PG",
+							"title": "NM select PG course",
+							"Key": "1.2.1.3."
+						}],
+						"operationvalue": "",
+						"defaultvalue": "",
+						"hideonly": false,
+						"order": "18.1"
+					},
+					"Key": "1.2.1.",
+					"required": true
+				}],
+				"seName": "",
+				"title": "NM Course",
+				"Key": "1.2."
+			}],
+			"operationvalue": "",
+			"defaultvalue": "",
+			"hideonly": false,
+			"order": 18
+		},
+		"Key": "1.",
+		"required": true
+	}, {
+		"Score": 0,
+		"name": "FF201527",
+		"title": "M Fields",
+		"type": {
+			"view": "label",
+			"readonly": false,
+			"data": "",
+			"labeltitle": "M Fields",
+			"operationvalue": "",
+			"hideonly": false,
+			"order": 19
+		},
+		"required": false
+	}, {
+		"scorerange": [],
+		"Score": 0,
+		"name": "FF201528",
+		"title": "M Enter Name",
+		"type": {
+			"view": "input",
+			"minlength": 0,
+			"readonlyvalue": "",
+			"data": "",
+			"readonly": false,
+			"maxlength": 6,
+			"inputtype": "text",
+			"operationvalue": "",
+			"defaultvalue": "",
+			"hideonly": false,
+			"order": 20
+		},
+		"required": true,
+		"validation": false
+	}, {
+		"Score": 0,
+		"name": "FF201529",
+		"title": "M Enter Address",
+		"type": {
+			"view": "textarea",
+			"minlength": 0,
+			"readonlyvalue": "",
+			"data": "",
+			"readonly": false,
+			"maxlength": 20,
+			"inputtype": "text",
+			"operationvalue": "",
+			"defaultvalue": "",
+			"hideonly": false,
+			"order": 21
+		},
+		"required": true
+	}, {
+		"Score": 0,
+		"name": "FF201530",
+		"title": "M Select Lang",
+		"type": {
+			"view": "checkbox",
+			"data": "",
+			"readonly": false,
+			"operationvalue": "",
+			"choices": [{
+				"SubScore": 0,
+				"name": "C",
+				"checked": false,
+				"id": 0
+			}, {
+				"SubScore": 0,
+				"name": "CPP",
+				"checked": false,
+				"id": 1
+			}],
+			"hideonly": false,
+			"order": 22
+		},
+		"required": true
+	}, {
+		"Score": 0,
+		"name": "FF201531",
+		"title": "M select grade",
+		"type": {
+			"view": "radio",
+			"readonly": false,
+			"data": "",
+			"operationvalue": "",
+			"options": [{
+				"SubScore": 0,
+				"name": "A",
+				"checked": false,
+				"links": [],
+				"id": 0
+			}, {
+				"SubScore": 0,
+				"name": "B",
+				"checked": false,
+				"links": [],
+				"id": 1
+			}, {
+				"SubScore": 0,
+				"name": "C",
+				"checked": false,
+				"links": [],
+				"id": 2
+			}],
+			"defaultvalue": "",
+			"hideonly": false,
+			"order": 23
+		},
+		"required": false
+	}, {
+		"Score": 0,
+		"BT": "NA",
+		"name": "FF201532",
+		"title": "M Select Score",
+		"type": {
+			"view": "select",
+			"Category": "Description",
+			"readonly": false,
+			"data": "",
+			"scan": "No",
+			"operationvalue": "",
+			"options": [{
+				"Designation": "no",
+				"Warehouse": "no",
+				"BT": "no",
+				"LeaveType": "no",
+				"SubScore": 0,
+				"name": "above 8",
+				"StockGroup": "no",
+				"Activity": "no",
+				"id": "above 8"
+			}, {
+				"Designation": "no",
+				"Warehouse": "no",
+				"BT": "no",
+				"LeaveType": "no",
+				"SubScore": 0,
+				"name": "above 7",
+				"StockGroup": "no",
+				"Activity": "no",
+				"id": "above 7"
+			}, {
+				"Designation": "no",
+				"Warehouse": "no",
+				"BT": "no",
+				"LeaveType": "no",
+				"SubScore": 0,
+				"name": "above 5",
+				"StockGroup": "no",
+				"Activity": "no",
+				"id": "above 5"
+			}],
+			"defaultvalue": "",
+			"hideonly": false,
+			"order": 24
+		},
+		"required": true
+	}, {
+		"Score": 0,
+		"name": "FF201533",
+		"title": "M image",
+		"type": {
+			"view": "image",
+			"data": "",
+			"defaultvalue": "",
+			"order": 25
+		},
+		"required": false
+	}, {
+		"Score": 0,
+		"name": "FF201534",
+		"title": "M capture photo",
+		"type": {
+			"view": "photo",
+			"readonly": false,
+			"data": "",
+			"operationvalue": "",
+			"defaultvalue": "",
+			"hideonly": false,
+			"order": 26
+		},
+		"required": false
+	}, {
+		"Score": 0,
+		"name": "FF201535",
+		"title": "M signature",
+		"type": {
+			"view": "signature",
+			"readonly": false,
+			"data": "",
+			"operationvalue": "",
+			"defaultvalue": "",
+			"hideonly": false,
+			"order": 27
+		},
+		"required": true
+	}, {
+		"Score": 0,
+		"name": "ScanBarcodeFF201537",
+		"title": "M barcode",
+		"type": {
+			"view": "Scan",
+			"options": [{
+				"Score": 0,
+				"name": "ScanBarcodeFF201537",
+				"title": "M barcode",
+				"type": {
+					"view": "textarea",
+					"minlength": 0,
+					"readonlyvalue": "",
+					"readonly": false,
+					"maxlength": 1000,
+					"inputtype": "text",
+					"operationvalue": "",
+					"defaultvalue": "",
+					"hideonly": false,
+					"order": 0
+				},
+				"required": true
+			}, {
+				"Score": "0",
+				"name": "FF2015370",
+				"addname": "ScanBarcodeFF201537",
+				"title": "M barcode",
+				"type": {
+					"view": "sbutton",
+					"readonlyvalue": "",
+					"readonly": false,
+					"operationvalue": "",
+					"defaultvalue": "",
+					"hideonly": false,
+					"order": 0
+				},
+				"required": true
+			}],
+			"order": 28
+		}
+	}, {
+		"scorerange": [],
+		"ScoreDropdown": "NA",
+		"name": "GP2015423",
+		"ScoreType": null,
+		"title": "M Group",
+		"type": {
+			"view": "group",
+			"readonly": false,
+			"operationvalue": "",
+			"options": [{
+				"Score": 0,
+				"name": "Add5",
+				"title": "Add",
+				"type": {
+					"view": "button",
+					"readonly": false,
+					"operationvalue": "",
+					"defaultvalue": "",
+					"hideonly": false,
+					"order": 5
+				},
+				"required": false
+			}, {
+				"BT": "no",
+				"Score": 0,
+				"name": "GP201538",
+				"title": "M Group select",
+				"type": {
+					"Category": "Description",
+					"data": "",
+					"scan": "No",
+					"multiple": false,
+					"StockHierarchy": "no",
+					"defaultvalue": "",
+					"mandatory": "No",
+					"view": "select",
+					"readonly": false,
+					"operationvalue": "",
+					"options": [{
+						"Designation": "no",
+						"Warehouse": "no",
+						"BT": "no",
+						"LeaveType": "no",
+						"SubScore": 0,
+						"name": "lager",
+						"StockGroup": "no",
+						"Activity": "no",
+						"id": 0
+					}, {
+						"Designation": "no",
+						"Warehouse": "no",
+						"BT": "no",
+						"LeaveType": "no",
+						"SubScore": 0,
+						"name": "lager1",
+						"StockGroup": "no",
+						"Activity": "no",
+						"id": 1
+					}, {
+						"Designation": "no",
+						"Warehouse": "no",
+						"BT": "no",
+						"LeaveType": "no",
+						"SubScore": 0,
+						"name": "Star1",
+						"StockGroup": "no",
+						"Activity": "no",
+						"id": 2
+					}],
+					"hideonly": false,
+					"order": 0
+				},
+				"required": true,
+				"validation": false
+			}, {
+				"scorerange": [],
+				"Score": 0,
+				"name": "GP201539",
+				"title": "M Enter Qty",
+				"type": {
+					"actionfields": "",
+					"minlength": 0,
+					"data": "",
+					"maxlength": 200,
+					"inputtype": "number",
+					"defaultvalue": "",
+					"view": "input",
+					"readonlyvalue": "",
+					"readonly": false,
+					"operationvalue": "",
+					"action": "No",
+					"formula": "",
+					"hideonly": false,
+					"order": 0
+				},
+				"required": true,
+				"validation": false
+			}, {
+				"Score": 0,
+				"name": "ScanBarcodeGP201540",
+				"title": "M Select Barcode",
+				"type": {
+					"view": "textarea",
+					"minlength": 0,
+					"readonlyvalue": "",
+					"readonly": false,
+					"maxlength": 1000,
+					"inputtype": "text",
+					"operationvalue": "",
+					"defaultvalue": "",
+					"hideonly": false,
+					"order": 0
+				},
+				"required": true
+			}, {
+				"Score": "0",
+				"name": "GP2015400",
+				"addname": "ScanBarcodeGP201540",
+				"title": "M Select Barcode",
+				"type": {
+					"view": "sbutton",
+					"readonlyvalue": "",
+					"readonly": false,
+					"operationvalue": "",
+					"defaultvalue": "",
+					"hideonly": false,
+					"order": 0
+				},
+				"required": true
+			}, {
+				"Score": 0,
+				"name": "TakeSnapGP201541",
+				"title": "M Select pic",
+				"type": {
+					"view": "photo",
+					"readonly": false,
+					"data": "",
+					"operationvalue": "",
+					"defaultvalue": "",
+					"hideonly": false,
+					"order": 0
+				},
+				"required": true
+			}],
+			"hideonly": false,
+			"order": 29
+		},
+		"required": true
+	}, {
+		"name": "GC201547",
+		"title": "M Group combo",
+		"type": {
+			"orientation": "horizontal",
+			"view": "groupcombo",
+			"readonly": false,
+			"groupfields": [{
+				"options": [{
+					"Score": 0,
+					"name": "GC201546",
+					"title": "M Group combof",
+					"type": {
+						"view": "label",
+						"readonly": false,
+						"data": "",
+						"labeltitle": "M Group combof",
+						"operationvalue": "",
+						"hideonly": false
+					},
+					"required": false
+				}, {
+					"scorerange": [],
+					"Score": 0,
+					"name": "GC201543",
+					"title": "M QTY",
+					"type": {
+						"view": "input",
+						"minlength": 0,
+						"readonly": false,
+						"maxlength": 100,
+						"inputtype": "number",
+						"operationvalue": "",
+						"defaultvalue": 0,
+						"formula": [{
+							"result": "GC201545",
+							"fields": "GC201543##GC201544",
+							"operation": "Addition",
+							"order": 1
+						}, {
+							"result": "GC254285",
+							"fields": "GC201545",
+							"operation": "Addition",
+							"order": 2
+						}],
+						"action": "yes",
+						"hideonly": false,
+						"order": 0
+					},
+					"required": false
+				}, {
+					"scorerange": [],
+					"Score": 0,
+					"name": "GC201544",
+					"title": "M PRICE",
+					"type": {
+						"view": "input",
+						"minlength": 0,
+						"readonly": false,
+						"maxlength": 100,
+						"inputtype": "number",
+						"operationvalue": "",
+						"defaultvalue": 0,
+						"action": "yes",
+						"formula": [{
+							"result": "GC201545",
+							"fields": "GC201543##GC201544",
+							"operation": "Addition",
+							"order": 1
+						}, {
+							"result": "GC254285",
+							"fields": "GC201545",
+							"operation": "Addition",
+							"order": 2
+						}],
+						"hideonly": false,
+						"order": 1
+					},
+					"required": false
+				}, {
+					"scorerange": [],
+					"Score": 0,
+					"name": "GC201545",
+					"title": "M TOTAL",
+					"type": {
+						"view": "input",
+						"minlength": 0,
+						"readonly": true,
+						"maxlength": 100,
+						"inputtype": "number",
+						"operationvalue": "",
+						"defaultvalue": 0,
+						"action": "no",
+						"formula": [],
+						"hideonly": false,
+						"order": 2
+					},
+					"required": false
+				}]
+			}, {
+				"options": [{
+					"Score": 0,
+					"name": "GC254286",
+					"title": "Total",
+					"type": {
+						"view": "label",
+						"readonly": true,
+						"operationvalue": "block",
+						"hideonly": false,
+						"order": 2
+					},
+					"required": false
+				}, {
+					"scorerange": [],
+					"Score": 0,
+					"name": "GC254287",
+					"title": "Total",
+					"type": {
+						"view": "input",
+						"minlength": 0,
+						"readonly": true,
+						"maxlength": 1000,
+						"inputtype": "number",
+						"operationvalue": "none",
+						"defaultvalue": 0,
+						"formula": [],
+						"action": "no",
+						"hideonly": false,
+						"order": 3
+					},
+					"required": false
+				}, {
+					"scorerange": [],
+					"Score": 0,
+					"name": "GC254288",
+					"title": "Total",
+					"type": {
+						"view": "input",
+						"minlength": 0,
+						"readonly": true,
+						"maxlength": 1000,
+						"inputtype": "number",
+						"operationvalue": "none",
+						"defaultvalue": 0,
+						"formula": [],
+						"action": "no",
+						"hideonly": false,
+						"order": 4
+					},
+					"required": false
+				}, {
+					"scorerange": [],
+					"Score": 0,
+					"name": "GC254285",
+					"title": "Total",
+					"type": {
+						"view": "input",
+						"minlength": 0,
+						"readonly": true,
+						"maxlength": 1000,
+						"inputtype": "number",
+						"operationvalue": "block",
+						"defaultvalue": 0,
+						"formula": [],
+						"action": "no",
+						"hideonly": false,
+						"order": 5
+					},
+					"required": false
+				}]
+			}],
+			"operationvalue": "",
+			"hideonly": false,
+			"order": 30
+		},
+		"required": false
+	}, {
+		"Score": 0,
+		"name": "FF201556",
+		"title": "NM Section",
+		"type": {
+			"view": "section",
+			"data": "",
+			"order": 31,
+			"sectionfields": [{
+				"Score": 0,
+				"name": "FF201557",
+				"title": "NM SECTION Data",
+				"type": {
+					"view": "label",
+					"readonly": false,
+					"data": "",
+					"labeltitle": "NM SECTION Data",
+					"operationvalue": "",
+					"hideonly": false,
+					"order": 1
+				},
+				"required": false
+			}, {
+				"scorerange": [],
+				"Score": 0,
+				"name": "FF201558",
+				"title": "NM S Enter Name",
+				"type": {
+					"view": "input",
+					"minlength": 0,
+					"readonlyvalue": "",
+					"data": "",
+					"readonly": false,
+					"maxlength": 50,
+					"inputtype": "text",
+					"operationvalue": "",
+					"defaultvalue": "",
+					"hideonly": false,
+					"order": 2
+				},
+				"required": false,
+				"validation": false
+			}, {
+				"Score": 0,
+				"name": "FF201559",
+				"title": "NM S Enter Address",
+				"type": {
+					"view": "textarea",
+					"minlength": 0,
+					"readonlyvalue": "",
+					"data": "",
+					"readonly": false,
+					"maxlength": 200,
+					"inputtype": "text",
+					"operationvalue": "",
+					"defaultvalue": "",
+					"hideonly": false,
+					"order": 3
+				},
+				"required": false
+			}, {
+				"Score": 0,
+				"name": "FF201560",
+				"title": "NM S Check",
+				"type": {
+					"view": "checkbox",
+					"data": "",
+					"readonly": false,
+					"operationvalue": "",
+					"choices": [{
+						"SubScore": 0,
+						"name": "A",
+						"checked": false,
+						"id": 0
+					}, {
+						"SubScore": 0,
+						"name": "B",
+						"checked": false,
+						"id": 1
+					}, {
+						"SubScore": 0,
+						"name": "C",
+						"checked": false,
+						"id": 2
+					}],
+					"hideonly": false,
+					"order": 4
+				},
+				"required": false
+			}, {
+				"Score": 0,
+				"name": "FF201561",
+				"title": "NM S Radio",
+				"type": {
+					"view": "radio",
+					"readonly": false,
+					"data": "",
+					"operationvalue": "",
+					"options": [{
+						"SubScore": 0,
+						"name": "A1",
+						"checked": false,
+						"links": [],
+						"id": 0
+					}, {
+						"SubScore": 0,
+						"name": "B1",
+						"checked": false,
+						"links": [],
+						"id": 1
+					}, {
+						"SubScore": 0,
+						"name": "C1",
+						"checked": false,
+						"links": [],
+						"id": 2
+					}],
+					"defaultvalue": "",
+					"hideonly": false,
+					"order": 5
+				},
+				"required": false
+			}, {
+				"Score": 0,
+				"BT": "NA",
+				"name": "FF201562",
+				"title": "NM S DD",
+				"type": {
+					"view": "select",
+					"Category": "Description",
+					"readonly": false,
+					"data": "",
+					"scan": "No",
+					"operationvalue": "",
+					"options": [{
+						"Designation": "no",
+						"Warehouse": "no",
+						"BT": "no",
+						"LeaveType": "no",
+						"SubScore": 0,
+						"name": "above 10",
+						"StockGroup": "no",
+						"Activity": "no",
+						"id": "above 10"
+					}, {
+						"Designation": "no",
+						"Warehouse": "no",
+						"BT": "no",
+						"LeaveType": "no",
+						"SubScore": 0,
+						"name": "below 10",
+						"StockGroup": "no",
+						"Activity": "no",
+						"id": "below 10"
+					}],
+					"defaultvalue": "",
+					"hideonly": false,
+					"order": 6
+				},
+				"required": false
+			}, {
+				"Score": 0,
+				"name": "FF201563",
+				"title": "NM S image",
+				"type": {
+					"view": "image",
+					"data": "",
+					"defaultvalue": "",
+					"order": 7
+				},
+				"required": false
+			}, {
+				"Score": 0,
+				"name": "FF201564",
+				"title": "NM S photo",
+				"type": {
+					"view": "photo",
+					"readonly": false,
+					"data": "",
+					"operationvalue": "",
+					"defaultvalue": "",
+					"hideonly": false,
+					"order": 8
+				},
+				"required": false
+			}, {
+				"Score": 0,
+				"name": "FF201565",
+				"title": "NM S sig",
+				"type": {
+					"view": "signature",
+					"readonly": false,
+					"data": "",
+					"operationvalue": "",
+					"defaultvalue": "",
+					"hideonly": false,
+					"order": 9
+				},
+				"required": false
+			}, {
+				"Score": 0,
+				"name": "ScanBarcodeFF201566",
+				"title": "NMS barcode",
+				"type": {
+					"view": "Scan",
+					"options": [{
+						"Score": 0,
+						"name": "ScanBarcodeFF201566",
+						"title": "NMS barcode",
+						"type": {
+							"view": "textarea",
+							"minlength": 0,
+							"readonlyvalue": "",
+							"readonly": false,
+							"maxlength": 1000,
+							"inputtype": "text",
+							"operationvalue": "",
+							"defaultvalue": "",
+							"hideonly": false,
+							"order": 0
+						},
+						"required": false
+					}, {
+						"Score": "0",
+						"name": "FF2015660",
+						"addname": "ScanBarcodeFF201566",
+						"title": "NMS barcode",
+						"type": {
+							"view": "sbutton",
+							"readonlyvalue": "",
+							"readonly": false,
+							"operationvalue": "",
+							"defaultvalue": "",
+							"hideonly": false,
+							"order": 0
+						},
+						"required": false
+					}],
+					"order": 10
+				}
+			}]
+		},
+		"required": false
+	}],
+	"formtype": null
+}

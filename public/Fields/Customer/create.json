@@ -1,0 +1,102 @@
+{
+    "title":"Create Customer",
+    "fields": [
+        {
+            "name": "customerCode",
+            "title": "Customer Code",
+            "readonly": false,
+            "required": true,
+            "hideonly": false,
+            "type": "input",
+            "dataType": "text",
+            "min": 5,
+            "max": 10,
+            "error":""
+        },
+        {
+            "name": "customerName",
+            "title": "Customer Name",
+            "readonly": false,
+            "required": true,
+            "hideonly": false,
+            "type": "input",
+            "dataType": "text",
+            "min": 0,
+            "max": 100,
+            "error":""
+        },
+        {
+            "name": "status",
+            "title": "Status",
+            "readonly": false,
+            "required": true,
+            "hideonly": false,
+            "type": "dropdown",
+            "dataType": "select",
+            "error":"",
+            "values": [
+                {
+                    "label": "Active",
+                    "value": "active"
+                },
+                {
+                    "label": "InActive",
+                    "value": "inactive"
+                }
+            ]
+        },
+        {
+            "name": "phoneNumber",
+            "title": "Phone No",
+            "readonly": false,
+            "required": false,
+            "hideonly": false,
+            "type": "input",
+            "dataType": "number",
+            "min": 0,
+            "max": 10,
+            "error":""
+        },
+        {
+            "name": "email",
+            "title": "Email",
+            "readonly": false,
+            "required": true,
+            "hideonly": false,
+            "type": "input",
+            "dataType": "email",
+            "min": 0,
+            "max": 10,
+            "error":""
+        },{
+            "name": "creditLimit",
+            "title": "Credit Limit",
+            "readonly": false,
+            "required": true,
+            "hideonly": false,
+            "type": "input",
+            "dataType": "number",
+            "min": 0,
+            "max": 100000,
+            "error":""
+        },
+        {
+            "name": "customerType",
+            "title": "Customer Type",
+            "readonly": false,
+            "required": true,
+            "hideonly": false,
+            "type": "dropdown",
+            "dataType": "select",
+            "error":"",
+            "values": [] 
+            
+        },
+        {
+            "name":"bt",
+            "type":"BT",
+            "error":"",
+            "required":true
+        }
+    ]
+}

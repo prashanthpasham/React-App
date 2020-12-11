@@ -1,0 +1,110 @@
+{
+    "title":"Create Stock",
+    "fields": [
+        {
+            "name":"st",
+            "type":"ST",
+            "error":"",
+            "required":true
+        },
+        {
+            "name": "skuCode",
+            "title": "Sku Code",
+            "readonly": false,
+            "required": true,
+            "hideonly": false,
+            "type": "input",
+            "dataType": "text",
+            "min": 5,
+            "max": 10,
+            "error":""
+        },
+        {
+            "name": "skuDescription",
+            "title": "Sku Description",
+            "readonly": false,
+            "required": true,
+            "hideonly": false,
+            "type": "input",
+            "dataType": "text",
+            "min": 0,
+            "max": 100,
+            "error":""
+        },
+        {
+            "name": "status",
+            "title": "Status",
+            "readonly": false,
+            "required": true,
+            "hideonly": false,
+            "type": "dropdown",
+            "dataType": "select",
+            "error":"",
+            "values": [
+                {
+                    "label": "Active",
+                    "value": "active"
+                },
+                {
+                    "label": "InActive",
+                    "value": "inactive"
+                }
+            ]
+        },
+        {
+            "name": "price",
+            "title": "Standard Price",
+            "readonly": false,
+            "required": true,
+            "hideonly": false,
+            "type": "input",
+            "dataType": "number",
+            "min": 0,
+            "max": 10,
+            "error":""
+        },
+        {
+            "name": "managedBy",
+            "title": "Managed By",
+            "readonly": false,
+            "required": true,
+            "hideonly": false,
+            "type": "dropdown",
+            "dataType": "select",
+            "error":"",
+            "values": [
+                {
+                    "label": "Serial",
+                    "value": "serial"
+                },
+                {
+                    "label": "Batch",
+                    "value": "batch"
+                }, {
+                    "label": "None",
+                    "value": "none"
+                }
+            ]
+        },{
+            "name": "uomConfigId",
+            "title": "Pack Size",
+            "readonly": false,
+            "required": true,
+            "hideonly": false,
+            "type": "dropdown",
+            "dataType": "select",
+            "optionLabel":"name",
+            "optionValue":"id",
+            "error":"",
+            "values": []
+        },{
+            "name":"images",
+            "type":"image",
+            "error":"",
+            "required":false,
+            "multiple":true
+        }
+       
+        
+    ]
+}

@@ -1,0 +1,46 @@
+{
+ "title":"Customer",
+ "fields":[
+    {
+        "name":"bt",
+        "type":"BT",
+        "error":"",
+        "required":false
+    },
+    {
+        "name": "custCodeName",
+        "title": "Customer Code or Name",
+        "required": false,
+        "type": "input",
+        "dataType": "text",
+        "error":""
+    },
+    {
+        "name": "status",
+        "title": "Status",
+        "required": false,
+        "type": "dropdown",
+        "dataType": "select",
+        "error":"",
+        "values": [
+            {
+                "label": "Active",
+                "value": "active"
+            },
+            {
+                "label": "InActive",
+                "value": "inactive"
+            }
+        ]
+    },{
+        "name": "customerType",
+        "title": "Customer Type",
+        "required": false,
+        "type": "dropdown",
+        "dataType": "select",
+        "error":"",
+        "values": []
+        
+    }
+ ]   
+}
